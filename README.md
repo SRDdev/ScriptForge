@@ -1,8 +1,12 @@
-<img src="https://imgs.search.brave.com/KGt2X1WFgdGVhaSWe_pqVk3yucJuxKvp4ENxA58K5DM/rs:fit:960:539:1/g:ce/aHR0cHM6Ly93cHRh/dmVybi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMTAv/R29vZ2xlLVBvZGNh/c3RzLWxvZ28uanBn" style="height:200px;">
-
 # ScriptGPT
-ScriptGPT is a GPT model built to generate amazing Youtube/Podcast/Film Scripts. ScriptGPT is a PyTorch implementation of the GPT (Generative Pre-trained Transformer) language model.
+<a href="https://huggingface.co/SRDdev/Script_GPT">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97-Huggingface-yellow">
+</a>
+<a href="https://huggingface.co/SRDdev/ScriptGPT">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97-HF%20Space-yellow">
+</a>
 
+ScriptGPT is a GPT model built to generate amazing Youtube/Podcast/Film Scripts. ScriptGPT is a PyTorch implementation of the GPT (Generative Pre-trained Transformer) language model.
 The current version is a smaller version based on only single podcast episode.
 
 ## Introduction to GPT
@@ -21,31 +25,33 @@ The youtube video on which this model is trained is linked below.
 [Link](https://youtu.be/I-dlPuqFguo)
 
 ## Inference
-__Currently Unavailable__
-
+__Load Model__
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("")
-model = AutoModelForCausalLM.from_pretrained("")
+tokenizer = AutoTokenizer.from_pretrained("SRDdev/Script_GPT")
+model = AutoModelForCausalLM.from_pretrained("SRDdev/Script_GPT")
 ```
-_Pipeline_
+__Pipeline__
 ```python
 from transformers import pipeline, set_seed
-generator = pipeline('text-generation', model=model)
+generator = pipeline('text-generation', model=model,tokenizer=tokenizer)
 
 text="Just a very quick thing before we get started,"
-
 generator(text, max_length=300, num_return_sequences=5)
 ```
+__OR__
+
+`Run the Inference.ipynb file`
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 ## Citations
 ```
-@citation{ ScriptGPT,
+@citation{ Script_GPT,
   author = {Shreyas Dixit},
   year = {2023},
-  url = {}
+  url = {https://huggingface.co/SRDdev/Script_GPT}
 }
 ```
