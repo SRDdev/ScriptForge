@@ -19,8 +19,9 @@ GPT-2, an updated version of GPT, was trained on a dataset of over 40 GB of text
 GPTLite is a smaller version which is built for fine-tuning and is trained on the Dataset, which is still powerful enough to generate human-like text, but with less computational resources required.
 
 ## 📂 Dataset
-The model is currently in beta stage and is only trained on single podcast episode.As the dataset for this is not available, I am building the dataset myself.
-The youtube video on which this model is trained is linked below.
+The model is currently in beta stage and is only trained on some youtube videos. As the dataset for this is not available, I am building the dataset myself.
+
+>  The model is still in beta phase and may generate illogical text.
 
 
 ## ⚙️ Models
