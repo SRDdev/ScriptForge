@@ -7,7 +7,7 @@
 </a>
 
 ScriptGPT is a GPT model built to generate amazing Youtube/Podcast/Film Scripts. ScriptGPT is a PyTorch implementation of the GPT (Generative Pre-trained Transformer) language model.
-The current version is a smaller version based on only single podcast episode.
+
 
 ## 🧠 Introduction to GPT
 GPT (Generative Pre-trained Transformer) is a language model developed by OpenAI. It is based on the transformer architecture, which was introduced in the paper "Attention is All You Need" by Google researchers. The key idea behind GPT is to pre-train a deep neural network on a large dataset, and then fine-tune it on a specific task, such as language translation or question answering.
@@ -21,7 +21,7 @@ GPTLite is a smaller version which is built for fine-tuning and is trained on th
 ## 📂 Dataset
 The model is currently in beta stage and is only trained on some youtube videos. As the dataset for this is not available, I am building the dataset myself.
 
->  The model is still in beta phase and may generate illogical text.
+__The model is still in beta phase and may generate illogical text.__
 
 
 ## ⚙️ Models
