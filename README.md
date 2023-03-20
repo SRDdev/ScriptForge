@@ -29,7 +29,7 @@ __The model is still in beta phase and may generate illogical text.__
 |--------------------|----------------------------------------------------|--------|----------------------------------------------------------|
 | Script_GPT         | Model for Generating Technical Content             | 100M   | [Link](https://huggingface.co/SRDdev/Script_GPT)         |
 | ScriptGPT-small    | Generalized model for Video script generation      | 124M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-small)    |
-| ScriptGPT-medium   | Generalized model for Video script generation      | 200M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-medium)   |
+| ScriptGPT-medium   | Generalized model for Video script generation      | 437M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-medium)   |
 
 
 
