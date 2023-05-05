@@ -1,12 +1,12 @@
-# ScriptGPT
-<a href="https://huggingface.co/SRDdev/Script_GPT">
+# ScriptForge
+<a href="https://huggingface.co/SRDdev/ScriptForge">
   <img src="https://img.shields.io/badge/%F0%9F%A4%97-Huggingface-yellow">
 </a>
 <a href="https://srddev-scriptify.hf.space">
   <img src="https://img.shields.io/badge/%F0%9F%A4%97-HF%20Space-yellow">
 </a>
 
-ScriptGPT is a GPT model built to generate amazing Youtube/Podcast/Film Scripts. ScriptGPT is a PyTorch implementation of the GPT (Generative Pre-trained Transformer) language model.
+ScriptForge is a GPT model built to generate amazing Youtube/Podcast/Film Scripts. ScriptForge is a PyTorch implementation of the GPT (Generative Pre-trained Transformer) language model.
 
 
 ## 🧠 Introduction to GPT
@@ -27,9 +27,9 @@ __The model is still in beta phase and may generate illogical text.__
 ## ⚙️ Models
 | Model Name         | Description                                        | Size   | Links                                                    |
 |--------------------|----------------------------------------------------|--------|----------------------------------------------------------|
-| Script_GPT         | Model for Generating Technical Content             | 100M   | [Link](https://huggingface.co/SRDdev/Script_GPT)         |
-| ScriptGPT-small    | Generalized model for Video script generation      | 124M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-small)    |
-| ScriptGPT-medium   | Generalized model for Video script generation      | 437M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-medium)   |
+| ScriptForge         | Model for Generating Technical Content             | 100M   | [Link](https://huggingface.co/SRDdev/Script_GPT)         |
+| ScriptForge-small    | Generalized model for Video script generation      | 124M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-small)    |
+| ScriptForge-medium   | Generalized model for Video script generation      | 437M   | [Link](https://huggingface.co/SRDdev/ScriptGPT-medium)   |
 
 
 
@@ -38,8 +38,8 @@ __Load Model__
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("SRDdev/Script_GPT")
-model = AutoModelForCausalLM.from_pretrained("SRDdev/Script_GPT")
+tokenizer = AutoTokenizer.from_pretrained("SRDdev/ScriptForge")
+model = AutoModelForCausalLM.from_pretrained("SRDdev/ScriptForge")
 ```
 
 __Pipeline__
@@ -62,9 +62,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 📝 Citations
 ```
 @citation{ 
-  Script_GPT,
+  ScriptForge,
   author = {Shreyas Dixit},
   year = {2023},
-  url = {https://huggingface.co/SRDdev/Script_GPT}
+  url = {https://huggingface.co/SRDdev/ScriptForge}
 }
 ```
